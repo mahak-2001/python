@@ -3,6 +3,11 @@ a=5
 b=7
 c=a+b
 print(c)
+#multiple element in single variable
+fruits="apple","papaya","orange"
+print(fruits)
+f1,f2,f3=fruits
+print(f2)
 #user input line
 name=input("my name is:")
 print("hello",name)
@@ -51,4 +56,22 @@ if("python" in p):
  print(" python present in p")
 else:
    print(" python not present in p")
-   
+#condition elements
+x=6
+y=6.5
+print(x==y)
+print(x==int(y))
+
+
+#list programs
+colors=["red","yellow","orange"]
+print(colors)
+print(type(colors))
+#index access
+print(colors[2])
+#add new elements
+colors.append("black")
+print(colors)
+#remove any elements
+colors.remove("red")
+print(colors)
