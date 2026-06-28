@@ -41,11 +41,12 @@ list.sort(reverse=True)#sort in descending order
 print(list)
 
 #reverse the number
-a=[3,4,2,5,1,6]
-a.reverse()
-print(a)
+b=[3,4,2,5,1,6]
+b.reverse()
+print(b)
 
 #insert a new value (variable,insert(index,element))
+a=[8,4,3,3,9,5,5]
 a.insert(2,7)
 print(a)
 
