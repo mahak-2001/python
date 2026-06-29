@@ -64,3 +64,7 @@ print(c)
 #duplicate any list
 d=2*b
 print(d)
+
+p=[1,2,3,4,4,5,2,6,9]
+print(p[1:5])
+print(p)
