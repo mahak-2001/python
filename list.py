@@ -56,3 +56,11 @@ print(a)
 #pop an element(var.pop(index))
 a.pop(5)
 print(a)
+#merge to list
+a=[2,3,4,5,2]
+b=[10,20,30,40]
+c=a+b
+print(c)
+#duplicate any list
+d=2*b
+print(d)
