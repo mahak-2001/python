@@ -6,8 +6,8 @@ print(tupl)
 
 # #METHODS:
 tup=(1,2,3,4,2,2)
-print(tup.index(1))
-print(tup.count(2))
+print(tup.index(1))#index(element)
+print(tup.count(2))#count(element)
 #test
 # movies=[]
 # mov1=input("enter movie: ")
