@@ -15,7 +15,7 @@ print(len(marks))
 
 #indexing value
 print(marks[3])
-print(marks[0])
+print(marks[1:8])
 
 #list store different types of elements:
 student=["karan",85,"delhi"]
@@ -65,6 +65,19 @@ print(c)
 d=2*b
 print(d)
 
-p=[1,2,3,4,4,5,2,6,9]
+p=[1,2,3,4,(4,5,2),6,9]
 print(p[1:5])
 print(p)
+
+
+
+
+
+
+
+
+
+
+
+
+
