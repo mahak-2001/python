@@ -25,5 +25,7 @@ z.append(56)
 print(z)
 z[2]=30
 print(z)
+z.insert(3,"mahak")
+print(z)
 y=tuple(z)
 print(y)
