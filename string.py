@@ -75,3 +75,50 @@ print(colors)
 #remove any elements
 colors.remove("red")
 print(colors)
+#methods
+str="i am learning python language."
+print(str.endswith("age."))#for checking the last word is match or not
+print(str.count("a"))
+print(str.replace("python","java"))
+print(str.find("am"))
+print(str.capitalize())
+#test questions
+name=(input("myself: "))
+print("length of name is:",len(name))
+currency="in america $ is used.in india $ value is very high."
+print(currency.count("$"))
+
+#nesting
+age=12
+if(age>=18):
+   if(age<=70):
+      print("elegible for vote")
+   else:
+      print("not elegible for vote")
+else:
+   print("under age ,not elegible for vote")
+#check no. is odd or even
+num=40
+if(num%2==0):
+   print("even num:",num)
+else:
+   print("odd num:",num)
+
+# check no. is multiple of 7 or not
+x=217
+if(x%7==0):
+    print(x," is multiple of 7")
+else:
+    print(x," is not multiple of 7")
+
+#find the greatest of 3 no. by user
+a=(input("a:"))
+b=(input("b:"))
+c=(input("c:"))
+if(a>b):
+   print("a is greater no.")
+elif(b>c):
+   print("b is greater no.")
+else:
+   print("c is greater no.")
+
