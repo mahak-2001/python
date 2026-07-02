@@ -58,3 +58,7 @@ number=((1,2),(3,4),5,6,7,4,7,8,3)
 n1,n2,n3,*n4=number
 print(n3)
 print(n4)
+t=(1,2,3,2,4,5,7,8,2,3,4,5,6)
+m=t.index(2)
+m2=t.index(2,m+1)
+print(m2)
