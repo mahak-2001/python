@@ -10,10 +10,12 @@ person={
      "course":"python"}
 print(person)
 print(len(person))
+
 #method for empty dict
 name=dict()
 print(name)
 print(type(name))
+
 #without method
 no_value={}
 print(no_value)
@@ -26,12 +28,16 @@ print(person1)
 values=[("name","mahak"),("rollno",3),("language","python"),("value",True)]
 value1=dict(values)
 print(value1)
+
+#this is not correct syntax because it has no key value.
 # mix=["mahak",3,True]
 # mix1=dict(mix)
 # print(mix1)
+
 #for accessing
 print(person["course"])
-#discard replace with get in dict
+
+# in this we use (get)instead of discard.
 print(person.get("email"))
 person.get("email")
 print(person)
@@ -51,9 +57,28 @@ print(person)
 print(person.pop("city"))
 print(person)
 #pop item
-person.pop()
+person.popitem()
 print(person)
-#print(person.keys("name"))
-#print(person.value("name"))
-#print(person.item("name"))
-#del,clear,nested dict
+
+print(person.keys())
+print(person.values())
+print(person.items())
+
+#clear method
+person.clear()
+print(person)
+del person
+
+#nested method
+students={
+    "student_1":{
+        "name":"mahak",
+        "course":"BCA"
+        },
+     "student_2": {
+        "name":"jiya",
+        "course":"BBA"
+        }
+}
+print(students["student_1"]["name"])
+print(students["student_2"]["course"])
