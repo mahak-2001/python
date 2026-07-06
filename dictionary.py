@@ -82,9 +82,9 @@ students={
 }
 print(students["student_1"]["name"])
 print(students["student_2"]["course"])
-for key in person.keys():
-    print(key)
-    for value in person.values():
-     print(values)
-     for key,value in person.items():
-        print(key,":",value)
+# for key in person.keys():
+#     print(key)
+#     for value in person.values():
+#      print(values)
+#      for i in person.items():
+#         print(key,":",value)
