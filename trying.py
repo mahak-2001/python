@@ -30,11 +30,6 @@
 # y=tuple(z)
 # print(y)
 
-age=18
-if(age>=18):
-    print("you are adult.")
-else:
-    print("you are not adult.")
 
 x=8
 y=8.0
