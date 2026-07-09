@@ -21,11 +21,11 @@
 #     count +=1
 
 
-password=""
-while password.strip() !="secret":
-    password=input("enter your password: ")
+# password=""
+# while password.strip() !="secret":
+#     password=input("enter your password: ")
     
-print("access granted")
+# print("access granted")
     
 #sum of 1,20 no. using for loop.
 # sum = 0
@@ -38,3 +38,11 @@ print("access granted")
 #     if i==3:
 #         break
 #     print(i)
+
+total=0
+number=int(input("enter a number: "))
+
+while number!=0:
+    total+=number
+    number=int(input("enter another number: "))
+print("total",total)
