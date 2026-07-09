@@ -22,10 +22,10 @@
 
 
 password=""
-while password !="secrect":
+while password.strip() !="secret":
     password=input("enter your password: ")
     
-print("access successfully")
+print("access granted")
     
 #sum of 1,20 no. using for loop.
 # sum = 0
