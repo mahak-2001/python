@@ -35,13 +35,15 @@ list=[64.76,94,63,84,99,77,55]
 list.append(88)#add one element at the end
 print(list)
 
-print(list.sort())#sort in ascending order
+list.sort()#sort in ascending order
 print(list)
 list.sort(reverse=True)#sort in descending order
 print(list)
 
 #reverse the number
 b=[3,4,2,5,1,6]
+b.sort()
+print(b)
 b.reverse()
 print(b)
 
