@@ -39,10 +39,22 @@
 #         break
 #     print(i)
 
-total=0
-number=int(input("enter a number: "))
+# total=0
+# number=int(input("enter a number: "))
 
-while number!=0:
-    total+=number
-    number=int(input("enter another number: "))
-print("total",total)
+# while number!=0:
+#     total+=number
+#     number=int(input("enter another number: "))
+# print("total",total)
+
+# secret_number=7
+# guess=0
+# while guess !=secret_number:
+#     guess=int(input("guess the number:"))
+# print("correct number!")
+
+number=[1,2,3,4,5]
+for i in number:
+    if number == 3:
+        break
+    print(i)
