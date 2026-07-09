@@ -19,9 +19,22 @@
 # while count<5:
 #     print(count)
 #     count +=1
-#step
-password="1234"
+
+
+password=""
 while password !="secrect":
     password=input("enter your password: ")
-    print("access successfully")
-    #sum of 1,20 no. using for loop.
+    
+print("access successfully")
+    
+#sum of 1,20 no. using for loop.
+# sum = 0
+# for i in range(1,21):
+#     sum=sum+i
+#     print(sum)
+
+# #break and continue.
+# for i in range(1,6):
+#     if i==3:
+#         break
+#     print(i)
