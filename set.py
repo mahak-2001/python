@@ -1,21 +1,21 @@
-#set=unordered collection of unique elements.
-#unordered:no index fix
-# mutable
-# not allow duplication elements:if we write so its not print.
-#set element must be immutable type such as numbers,string,or tuples.
-#syntax
-# variable={value,value1}
-x={}
-print(type(x))
-empty=set()
-print(type(empty))
-values={1,3,4.5,True,"mahak"}#if we take 1,0 and bool value ,so only 1st existance 
-print("mahak" in values)
-print(1 not in values)
-for y in values:
-   print(y)
-values.add(56)
-print(values)
+# #set=unordered collection of unique elements.
+# #unordered:no index fix
+# # mutable
+# # not allow duplication elements:if we write so its not print.
+# #set element must be immutable type such as numbers,string,or tuples.
+# #syntax
+# # variable={value,value1}
+# x={}
+# print(type(x))
+# empty=set()
+# print(type(empty))
+# values={1,3,4.5,True,"mahak"}#if we take 1,0 and bool value ,so only 1st existance 
+# print("mahak" in values)
+# print(1 not in values)
+# for y in values:
+#    print(y)
+# values.add(56)
+# print(values)
 set1={1,2,3,4}
 set2={5,6,7,8}
 set1.update([7,8,10])

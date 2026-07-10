@@ -27,7 +27,7 @@ while password.strip() !="secret":
     
 print("access granted")
     
-sum of 1,20 no. using for loop.
+#sum of 1,20 no. using for loop.
 sum = 0
 for i in range(1,21):
     sum=sum+i
