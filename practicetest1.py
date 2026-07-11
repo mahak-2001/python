@@ -143,3 +143,12 @@ print(len(values),(3,4)in values)
 # values.add([3,4])
 # print(values)
 # #TypeError occurs because a list is unhasable
+
+values={1,2}
+values.update([2,3,4])
+print(len(values),4 in values)
+#4 True
+values=set()
+values.add("ab")
+print(len(values),"a" in values,"ab" in values)
+#1 False True
