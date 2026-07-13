@@ -36,3 +36,26 @@ def calculate(a,b):
         return a+b,a-b,a*b
 x,y,z=calculate(3,4)
 print(x,y,z)
+
+
+def function(a,b=2):
+     a=a+b
+     b=a*b
+     return a,b
+x,y=function(3)
+print(x+y)
+
+def greet(name="mahak"):
+     print("hello",name)
+greet()
+
+def f(x=2,y=3):
+     return x+y
+print(f(5))
+
+def g(items):
+     return[x*x for x in items if x%2==0]
+print(g([1,2,3,4]))
+
+
+
