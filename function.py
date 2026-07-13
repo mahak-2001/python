@@ -58,4 +58,52 @@ def g(items):
 print(g([1,2,3,4]))
 
 
+def greet(name):
+     print("hello",name)
+result=greet("riya")
+print(result)
+
+
+def calculate(a,b):
+     print(a+b)
+     return a*b
+reult=calculate(3,4)
+print(result)
+
+def test():
+     return 5
+print(10)
+print(test())
+
+def total(a,b=5,c=2):
+     return a+b*c
+print(total(3))
+
+def total(a,b=5,c=2):
+     return a+b*c
+print(total(3,4))
+
+def addition(first,second):
+     return first+second
+result=addition(10,20)
+
+
+def message():
+     return print("Python")
+value=message()
+print(value)
+
+def calculate(a,b=2):
+     a=a+b
+     b=a*b
+     return a,b
+x,y=calculate(3)
+print(x+y)
+
+
+def operation(a,b):
+     return a+b
+def calculate(x):
+     return operation(x,x*2)
+print(calculate(4))
 
