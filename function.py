@@ -107,3 +107,78 @@ def calculate(x):
      return operation(x,x*2)
 print(calculate(4))
 
+
+def compare(a,b=10):
+     if a>b:
+          return a 
+     if a==b:
+      return 0
+     return b 
+print(compare(10))
+
+
+def show(number):
+     print(number)
+     value =show(5)
+     print(value+2)
+
+
+def statistics(a,b):
+     return a+b,a*b,a-b
+result=statistics(6,2)
+print(result[1])
+     
+# def greet():
+#      return "hello"
+# print(Greet())
+
+def one():
+     return 1
+def increase(number):
+     return number+1
+print(increase(increase(one())))
+
+def check(number):
+     if number>0:
+          return "positive"
+     return "non-positive"
+print(check(0))
+
+def first_even(numbers):
+     for number in numbers:
+          if number%2==0:
+               return number
+          return None
+     print(first_even([1,3,6,8]))
+
+
+def calculate(number):
+     return number+1
+print(calculate(calculate(2)+calculate(1)))
+
+def message():
+     return print("Python")
+value=message()
+print(value)
+
+def operation(a,b):
+     return a+b
+def calculate(x):
+     return operation(x,x*2)
+print(calculate(4))
+
+def compare(a,b=10):
+     if a>b:
+          return a
+     if a==b:
+       return 0
+     return b
+print(compare(10))
+
+# def addition(a,b):
+#      return a+b
+# print(addition(10))
+
+def calculate(a,b=3,c=4):
+     return a*b-c
+print(calculate(5,c=2))
