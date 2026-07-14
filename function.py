@@ -182,3 +182,103 @@ print(compare(10))
 def calculate(a,b=3,c=4):
      return a*b-c
 print(calculate(5,c=2))
+
+#*args store multiple positional argument as a tuple
+def add_numbers(*numbers):
+     total=0
+     for num in numbers:
+          total += num
+          return total
+print(add_numbers(1,2))
+print(add_numbers(5,10,15,20))
+
+
+def show_names(*names):
+       for name in names:
+             print(name)
+show_names("mahak","jiya","teena")
+
+def show_names(greet,*names):
+       for name in names:
+             print(greet,name)
+show_names("hello","mahak","jiya","teena")
+
+#add ** when work with keyword and print as a dict.
+def show_details(**details):
+      for key,value in details.items():
+            print(key,":",value)
+show_details(name="rohit",age=20,city="pune")
+
+def show_details(**details1):
+      for key,value in details1.items():
+            print(key,value)
+show_details(name="rohit",age=20,city="pune")
+
+def create_profile(**user):
+      print("user profile")
+      print("Name:",user.get("name"))
+      print("Age:",user.get("age"))
+      print("Email:",user.get("email"))
+create_profile(name="sneha",age=25,email="sneha66@gmail.com")
+
+count=0
+def increase():
+      global count
+      count+=1
+increase()
+increase()
+
+print(count)
+
+def square(number):
+      """
+      this function return square of a number
+      """
+      return number * number
+print(square(5))
+print(square.__doc__)
+
+#typein
+def add(a: int,b:int)->int:
+      return a+b
+print(add(10,20))
+
+#mix
+
+#lambda function
+#it is a small anonymous function.
+#it is usually used for shot operation.
+#sytax 
+# lambda arrgument:expression
+square=lambda x:x*x
+print(square(6))
+
+
+add=lambda a,b:a+b
+print(add(3,4))
+
+#map,filter,sorted
+
+
+          
+def find_largest(numbers):
+      largest=numbers[0]
+      for number in numbers:
+            if number>largest:
+                  largest=number
+marks=[67,76,4,3]
+print(find_largest(marks))
+
+
+# #recursion:-
+# def factorial
+
+
+
+
+
+
+
+
+      
+      
