@@ -33,7 +33,7 @@ value1=set(value)
 value=list(value1)
 print(value)
 
-second largest no.
+#second largest no.
 number=[4,3,5,1,7,8,9,1]
 number.sort()
 print(number[-2])
@@ -62,5 +62,5 @@ set1={4,5}
 print(set.intersection(set1))
 
 #count frequency of characters in a string.
-# word={"name":"mahak"}
-# print(word.count("a"))
+word={"name":"mahak"}
+print(word.count("a"))
