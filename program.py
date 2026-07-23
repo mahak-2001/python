@@ -56,3 +56,15 @@ for student in students:
     print("Total     :", student[3])
     print("Average   :", round(student[4], 2))
     print("Grade     :", student[5])
+
+
+
+#count frequency of each word in a sentence
+sentence = input("Enter a sentence: ")
+words = sentence.lower().split()
+frequency = {}
+for word in words:
+    frequency[word] = frequency.get(word, 0) + 1
+print("\nWord Frequency:")
+for word, count in frequency.items():
+    print(f"{word} : {count}")
